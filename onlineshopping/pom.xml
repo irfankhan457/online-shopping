@@ -14,6 +14,12 @@
 
 	<dependencies>
 
+		<!-- Linking Backend Project -->
+		<dependency>
+			<groupId>com.kzn</groupId>
+			<artifactId>shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<!-- Spring MVC -->
 		<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
 		<dependency>

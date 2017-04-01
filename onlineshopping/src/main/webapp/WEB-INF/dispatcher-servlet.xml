@@ -12,6 +12,7 @@
    ">
    
    <context:component-scan base-package="com.kzn.onlineshopping.controller"></context:component-scan>
+   <context:component-scan base-package="com.kzn.shoppingbackend.daoImpl"></context:component-scan>
 
    
    <bean id="viewResolver"
