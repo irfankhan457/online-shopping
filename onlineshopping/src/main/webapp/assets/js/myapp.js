@@ -7,8 +7,13 @@ $(function() {
 	case 'Contact':
 		$('#contact').addClass('active');
 		break;
+		
+	case 'All Products':
+		$('#listofproduct').addClass('active');
+		break;
 	default:
-		$('#home').addClass('active');
+		$('#listofproduct').addClass('active');
+		$('#a_'+menu).addClass('active');
 		break;
 	}
 });
